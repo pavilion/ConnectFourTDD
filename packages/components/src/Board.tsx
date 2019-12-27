@@ -32,7 +32,7 @@ export default function Board({ nColumns, nRows }: BoardProps) {
   }
 
   function givenColumnIndexGetEmptyRowIndex(columnIndex: number) {
-    let emptyRowIndex = 3;
+    let emptyRowIndex = boardValues.length - 1;
     boardValues.forEach(
       (e, i) => e[columnIndex] === null && (emptyRowIndex = i)
     );
