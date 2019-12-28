@@ -10,13 +10,13 @@ type CellProps = {
 export default function Cell({ value, onPress }: CellProps) {
   return (
     <TouchableOpacity
-      data-testid="cellContainer"
+      testID="cellContainer"
       style={styles.container}
       onPress={() => {
         onPress();
       }}
     >
-      <Text data-testid="cellText" style={styles.text}>
+      <Text testID="cellText" style={styles.text}>
         {value}
       </Text>
     </TouchableOpacity>

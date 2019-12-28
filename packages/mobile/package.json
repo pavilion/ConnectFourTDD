@@ -14,19 +14,19 @@
     "xcode": "open ios/myprojectname.xcworkspace"
   },
   "dependencies": {
-    "@types/jest": "^24.0.24",
+    "@types/jest": "^24.0.25",
     "components": "0.0.1",
-    "react": "16.11.0",
-    "react-native": "0.61.3"
+    "react": "16.12.0",
+    "react-native": "0.61.5"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "0.0.5",
     "@testing-library/jest-native": "^3.0.3",
     "@testing-library/react-native": "^5.0.1",
     "babel-jest": "24.9.0",
-    "eslint": "6.6.0",
+    "eslint": "6.8.0",
     "jest": "24.9.0",
-    "react-test-renderer": "16.11.0"
+    "react-test-renderer": "16.12.0"
   },
   "jest": {
     "preset": "@testing-library/react-native"
